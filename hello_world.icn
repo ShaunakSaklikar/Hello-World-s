@@ -1,0 +1,3 @@
+procrdure main()
+	wirte("Hello World form icon")
+end
