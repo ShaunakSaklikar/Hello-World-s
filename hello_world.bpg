@@ -1,0 +1,9 @@
+program Message;
+uses
+	Windows;
+	
+	begin
+		ShowMessage("Hello World form Delphi");
+	end.
+	
+  
