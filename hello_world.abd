@@ -1,0 +1,14 @@
+with Ada.Text_IO; use Ada.Text_IO;
+procedure Message is
+begin
+	Put_Line("Hello World form Ada");
+end Message;
+
+
+--Execution steps of Ada in Linux
+--$gcc -c hello_world.abd
+--$gnatbind hello_world
+--$gnatlink hello_world
+
+--$gnatmake hello_world     //compilation,binding and linking can be done automatically
+--$hello_world
