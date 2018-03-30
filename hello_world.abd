@@ -6,9 +6,9 @@ end Message;
 
 
 --Execution steps of Ada in Linux
---$gcc -c hello_world.abd
---$gnatbind hello_world
---$gnatlink hello_world
+--$gcc -c hello_world.abd  //compilation
+--$gnatbind hello_world	   //binding
+--$gnatlink hello_world		//linking
 
 --$gnatmake hello_world     //compilation,binding and linking can be done automatically
 --$hello_world
